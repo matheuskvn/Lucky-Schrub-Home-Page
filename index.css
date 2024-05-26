@@ -1,0 +1,134 @@
+#main-logo {
+    display: block;
+    margin: 0 auto;
+}
+
+body {
+  margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3.13em;
+    background-color: #26877f;
+    padding: 1.25em 0 1.25em 0;
+    border-radius: 3.13em;
+  }
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 100%;
+  }
+  
+  nav li {
+    flex-grow: 1;
+    text-align: center;
+    font-size: 1.56em;
+  }
+
+  a {
+  text-decoration: none;
+  color: inherit;
+  } 
+
+  a:visited {
+    color: inherit;
+  }
+
+  a:hover {
+    text-decoration:underline;
+  }
+
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1 rem;
+  }
+
+  #large-img {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.56em;
+    margin-bottom: 1.56em;
+  }
+
+  #garden-img {
+    width: 62.50em;
+    height: 25.00em;
+    border-radius: 1.56em;
+    box-shadow: 0.63em 0.63em 1.25em rgba(0, 0, 0, 0.99);
+    }
+
+  #text-hover {
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    padding: 0.31em;
+    border-radius: 0.31em;
+    max-width: 18.75em;
+    display: none;
+  }
+
+  #jason-img-span, #maria-img-span, #garden-img2-span {
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    padding: 0.31em;
+    border-radius: 0.31em;
+    max-width: 15.63em;
+    display: none;
+  }
+
+  #img-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 1.56em;
+  }
+
+  .img-below {
+    height: 12.50em;
+    width: 18.75em;
+    border-radius: 1.56em;
+    box-shadow: 0.63em 0.63em 1.25em rgba(0, 0, 0, 0.99);
+  }
+
+  #footerId {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+    padding-top: 0.94em;
+    padding-bottom: 0.94em;
+  }
+
+  @media (max-width: 768px) {
+    /* Estilos para telas menores que 768px */
+    nav ul {
+      flex-direction: column;
+    }
+  
+    nav li {
+      margin-bottom: 0.5rem;
+    }
+  
+    #garden-img {
+      width: 100%;
+      height: auto;
+    }
+  
+    #img-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .img-below {
+      width: 100%;
+      max-width: 400px;
+      height: auto;
+      margin-bottom: 1rem;
+    }
+  }
