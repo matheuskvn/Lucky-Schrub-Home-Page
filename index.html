@@ -1,41 +1,46 @@
 <!DOCTYPE html>
-    <html lang="eng">
-        <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Lucky Schrub Home</title>
-            <link rel="stylesheet" href="index.css">
-        </head>
-        <body>
-            <header>
-                <img id="main-logo" src="lucky_shrub_logos/Lucky-Shrub-logos/green-logo.png" alt="Lucky Shrub logo" height="300px">
-            </header>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li>Our Products</li>
-                    <li>Contact</li>
-                    <li>Info</li>
-                </ul>
-            </nav>
-            <main>
-                <div id="large-img">
-                    <img id="garden-img" src="lucky_shrub_logos/home-design.jpg" alt="Image of a garden">
-                    <span id="text-hover" style="display: none;"><strong>WHO ARE WE?</strong><br>Based in Tuscon, Arizona, Lucky Shrub is a medium-sized garden design firm that specializes in garden design and creation, maintenance and landscaping. The company also runs a small plant nursery that sells indoor and outdoor plants, making them a one-stop shop for clients to "transform any space into an oasis you can be proud of".</span>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lucky Schrub Home</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <header>
+            <img id="main-logo" src="lucky_shrub_logos/Lucky-Shrub-logos/green-logo.png" alt="Lucky Shrub logo" height="300px">
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li>Our Products</li>
+                <li>Contact</li>
+                <li>Info</li>
+            </ul>
+        </nav>
+        <main>
+            <div id="large-img-container">
+                <img id="garden-img" src="lucky_shrub_logos/home-design.jpg" alt="Image of a garden">
+                <label id="garden-img-text"><strong id="garden-img-text-title">WHO ARE WE?</strong><br>Based in Tuscon, Arizona, Lucky Shrub is a medium-sized garden design firm that specializes in garden design and creation, maintenance and landscaping. The company also runs a small plant nursery that sells indoor and outdoor plants, making them a one-stop shop for clients to "transform any space into an oasis you can be proud of".<label>
+            </div>
+            <div id="grid-container">
+                <div class="jason-grid">
+                    <img class="grid-item jason-img" src="lucky_shrub_logos/jason.png" alt="An image of a man with some plants">
+                    <p class="grid-item jason-text">Jason is the garden architect. He creates and oversees all designs while managing his team of landscapers.</p>
                 </div>
-                <div id="img-container">
-                    <img id="jason-img" class="img-below" src="lucky_shrub_logos/jason.png" alt="An image of Jason">
-                    <span id="jason-img-span">Jason is the garden architect. He creates and oversees all designs while managing his team of landscapers.</span>
-                    <img id="maria-img" class="img-below" src="lucky_shrub_logos/maria.png" alt="An image of Maria">
-                    <span id="maria-img-span">Maria manages all the marketing for the company and oversees the nursery.</span>
-                    <img id="garden-img2" class="img-below" src="lucky_shrub_logos/garden-img.png" alt="An image of a architectured garden">
-                    <span id="garden-img2-span">Get started!</span>
+                <div class="maria-grid">
+                    <img class="grid-item maria-img" src="lucky_shrub_logos/maria.png" alt="An image of a woman smiling">
+                    <p class="grid-item maria-text">Maria manages all the marketing for the company and oversees the nursery.</p>
                 </div>
-            </main>
-            <footer id="footerId">
-                <img src="lucky_shrub_logos/Lucky-Shrub-logos/white-logo.png" alt="Lucky Shrub logo" height="100px">
-                <p>&copy; 2024 Lucky Shrub, Inc. All rights reserved.</p>
-            </footer>
-            <script src="index.js"></script>
-        </body>
-    </html>
+                <div class="garden-grid">
+                <img class="grid-item garden-img" src="lucky_shrub_logos/garden-img.png" alt="Image of a planned garden">
+                <p class="grid-item garden-text">Let's get started</p>
+                </div>
+            </div>
+         </main>
+        <footer id="footerId">
+            <img src="lucky_shrub_logos/Lucky-Shrub-logos/white-logo.png" alt="Lucky Shrub logo" height="100px">
+            <p>&copy; 2024 Lucky Shrub, Inc. All rights reserved.</p>
+        </footer>
+    </body>
+</html>
